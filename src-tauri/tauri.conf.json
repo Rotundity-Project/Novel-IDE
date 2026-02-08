@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Novel-IDE",
+  "version": "0.1.0",
+  "identifier": "com.novel-ide.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Novel-IDE",
+        "width": 1280,
+        "height": 800,
+        "resizable": true
+      }
+    ]
+  }
+}
