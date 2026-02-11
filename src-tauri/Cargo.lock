@@ -1983,7 +1983,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "novel-ide"
+name = "novel-studio"
 version = "0.1.0"
 dependencies = [
  "base64 0.22.1",

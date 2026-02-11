@@ -1,4 +1,4 @@
-# Novel-IDE
+# Novel Studio
 
 本地小说创作 IDE：Tauri v2 + React + Monaco Editor。目标是让“设定/大纲/正文”结构清晰、AI 写作与编辑器深度联动，并把与小说无关的项目文件统一收纳到 `.novel/`。
 
@@ -29,7 +29,7 @@
 
 ## 小说项目（Workspace）目录约定（重要）
 
-Novel-IDE 认为“小说本身”只由三个主目录构成，且这三个目录只放 `.md` 文档：
+Novel Studio 认为“小说本身”只由三个主目录构成，且这三个目录只放 `.md` 文档：
 
 ```
 <workspace>/
@@ -148,9 +148,9 @@ npm run tauri:build
 
 设置与密钥不写入小说工作区（避免污染项目、避免误提交）。
 
-- 应用设置（不含密钥）：AppData 下 `Novel-IDE/settings.json`
-- 智能体库：AppData 下 `Novel-IDE/agents.json`
-- 会话历史：AppData 下 `Novel-IDE/chat_history.json`
+- 应用设置（不含密钥）：AppData 下 `Novel Studio/settings.json`
+- 智能体库：AppData 下 `Novel Studio/agents.json`
+- 会话历史：AppData 下 `Novel Studio/chat_history.json`
 
 ### API Key 安全存储
 

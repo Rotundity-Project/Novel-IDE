@@ -100,7 +100,7 @@ editor.onDidDispose(() => {
 ## Manual Testing Steps
 
 ### Prerequisites
-1. Open a workspace in the Novel-IDE application
+1. Open a workspace in the Novel Studio application
 2. Create at least one character card using the Character Manager
 
 ### Test Case 1: Basic Hover Functionality

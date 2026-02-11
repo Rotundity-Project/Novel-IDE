@@ -5,7 +5,7 @@ use std::fs;
 use std::path::PathBuf;
 use tauri::{AppHandle, Manager};
 
-const DATA_DIR_NAME: &str = "Novel-IDE";
+const DATA_DIR_NAME: &str = "Novel Studio";
 
 #[derive(Default, Serialize, Deserialize)]
 struct SecretsFile {

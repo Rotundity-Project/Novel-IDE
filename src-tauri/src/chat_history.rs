@@ -72,5 +72,5 @@ fn history_path(app: &tauri::AppHandle) -> Result<PathBuf, String> {
     .path()
     .app_data_dir()
     .map_err(|e| format!("app data dir failed: {e}"))?;
-  Ok(base.join("Novel-IDE").join("chat_history.json"))
+  Ok(base.join("Novel Studio").join("chat_history.json"))
 }

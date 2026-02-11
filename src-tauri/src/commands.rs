@@ -71,7 +71,7 @@ fn last_workspace_path(app: &AppHandle) -> Result<PathBuf, String> {
     .path()
     .app_data_dir()
     .map_err(|e| format!("app data dir failed: {e}"))?;
-  Ok(base.join("Novel-IDE").join("last_workspace.json"))
+  Ok(base.join("Novel Studio").join("last_workspace.json"))
 }
 
 fn save_last_workspace(app: &AppHandle, root: &Path) -> Result<(), String> {
@@ -470,7 +470,7 @@ pub fn git_commit(state: State<'_, AppState>, message: String) -> Result<String,
 
   let sig = repo
     .signature()
-    .or_else(|_| git2::Signature::now("Novel-IDE", "novel-ide@local"))
+    .or_else(|_| git2::Signature::now("Novel Studio", "novel-studio@local"))
     .map_err(|e| format!("signature failed: {e}"))?;
 
   let parent = repo
