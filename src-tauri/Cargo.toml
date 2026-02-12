@@ -1,7 +1,7 @@
 [package]
-name = "novel-studio"
+name = "novel-ide"
 version = "0.1.0"
-description = "Novel Studio"
+description = "Novel-IDE"
 authors = ["you"]
 edition = "2021"
 
@@ -10,7 +10,7 @@ tauri-build = { version = "2", features = [] }
 ico = "0.5"
 
 [package.metadata.tauri]
-productName = "Novel Studio"
+productName = "Novel-IDE"
 
 [dependencies]
 tauri = { version = "2", features = [] }
@@ -37,3 +37,12 @@ incremental = true
 panic = "abort"
 lto = true
 codegen-units = 1
+
+
+
+
+
+
+
+
+

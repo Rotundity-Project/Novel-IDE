@@ -2,7 +2,7 @@
 
 ## Common Build Issues and Solutions
 
-### Issue: Path Reference Error (Novel-IDE vs Novel-Studio)
+### Issue: Path Reference Error (Project Rename)
 
 **Error Message:**
 ```

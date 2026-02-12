@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the implementation of Markdown support in the Novel Studio editor (Task 10).
+This document describes the implementation of Markdown support in the Novel-IDE editor (Task 10).
 
 ## Implemented Features
 

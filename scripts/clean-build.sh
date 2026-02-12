@@ -1,8 +1,8 @@
 #!/bin/bash
-# Clean Build Script for Novel Studio
+# Clean Build Script for Novel IDE
 # This script cleans all build artifacts and caches to fix path reference issues
 
-echo "🧹 Cleaning Novel Studio build artifacts..."
+echo "🧹 Cleaning Novel IDE build artifacts..."
 echo ""
 
 # Clean Rust/Cargo build cache

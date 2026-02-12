@@ -1,10 +1,10 @@
-# Novel Studio
+# Novel-IDE
 
 本地小说创作 IDE：Tauri v2 + React + Lexical Editor。目标是让"设定/大纲/正文"结构清晰、AI 写作与编辑器深度联动，并把与小说无关的项目文件统一收纳到 `.novel/`。
 
 ## 🎉 编辑器升级（v2.0）
 
-Novel Studio 已从 Monaco Editor 升级到 Lexical Editor，专为小说创作场景优化：
+Novel-IDE 已从 Monaco Editor 升级到 Lexical Editor，专为小说创作场景优化：
 
 - ✅ **更好的长文本性能**：支持 10 万字以上流畅编辑，滚动和输入响应更快
 - ✅ **优化的中文支持**：改进的中文输入法（IME）处理和排版
@@ -73,7 +73,7 @@ Lexical Editor 提供了更流畅的创作体验，主要改进包括：
 
 ## 小说项目（Workspace）目录约定（重要）
 
-Novel Studio 认为"小说本身"只由三个主目录构成，且这三个目录只放 `.md` 文档：
+Novel-IDE 认为"小说本身"只由三个主目录构成，且这三个目录只放 `.md` 文档：
 
 ```
 <workspace>/
@@ -106,7 +106,7 @@ Novel Studio 认为"小说本身"只由三个主目录构成，且这三个目�
 
 - Node.js（建议 18+）
 - Rust（stable，含 cargo）
-- Visual Studio Build Tools（勾选 Desktop development with C++ / MSVC 工具链）
+- Visual IDE Build Tools（勾选 Desktop development with C++ / MSVC 工具链）
 - WebView2 Runtime（Win10/11 通常已自带；没有请安装 Evergreen Runtime）
 
 ### 启动开发模式
@@ -192,9 +192,9 @@ npm run tauri:build
 
 设置与密钥不写入小说工作区（避免污染项目、避免误提交）。
 
-- 应用设置（不含密钥）：AppData 下 `Novel Studio/settings.json`
-- 智能体库：AppData 下 `Novel Studio/agents.json`
-- 会话历史：AppData 下 `Novel Studio/chat_history.json`
+- 应用设置（不含密钥）：AppData 下 `Novel-IDE/settings.json`
+- 智能体库：AppData 下 `Novel-IDE/agents.json`
+- 会话历史：AppData 下 `Novel-IDE/chat_history.json`
 
 ### API Key 安全存储
 

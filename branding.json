@@ -1,0 +1,17 @@
+{
+  "displayName": "Novel-IDE",
+  "npmName": "novel-ide",
+  "crateName": "novel-ide",
+  "tauriIdentifier": "com.novelide.novel",
+  "dataDirName": "Novel-IDE",
+  "gitSignature": {
+    "name": "Novel-IDE",
+    "email": "novel-ide@local"
+  },
+  "editor": {
+    "namespace": "NovelIDEEditor",
+    "configStorageKey": "novel-ide-editor-config",
+    "legacyConfigStorageKey": "novel-ide-editor-config"
+  },
+  "legacyDataDirName": "Novel IDE"
+}

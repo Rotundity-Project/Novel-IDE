@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document analyzes the performance of the Lexical editor implementation in Novel Studio and provides recommendations for optimization.
+This document analyzes the performance of the Lexical editor implementation in Novel-IDE and provides recommendations for optimization.
 
 ## Test Results
 

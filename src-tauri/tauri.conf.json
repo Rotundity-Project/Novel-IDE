@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Novel Studio",
+  "productName": "Novel-IDE",
   "version": "0.1.0",
   "identifier": "com.novelide.novel",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Novel Studio",
+        "title": "Novel-IDE",
         "width": 1280,
         "height": 800,
         "resizable": true

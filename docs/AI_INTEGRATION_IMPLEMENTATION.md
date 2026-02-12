@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document summarizes the implementation of Task 7: AI Integration for the Novel Studio editor upgrade from Monaco Editor to Lexical.
+This document summarizes the implementation of Task 7: AI Integration for the Novel-IDE editor upgrade from Monaco Editor to Lexical.
 
 ## Implementation Date
 

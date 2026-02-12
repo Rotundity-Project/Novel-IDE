@@ -1,7 +1,7 @@
-# Clean Build Script for Novel Studio
+# Clean Build Script for Novel IDE
 # This script cleans all build artifacts and caches to fix path reference issues
 
-Write-Host "🧹 Cleaning Novel Studio build artifacts..." -ForegroundColor Cyan
+Write-Host "🧹 Cleaning Novel IDE build artifacts..." -ForegroundColor Cyan
 Write-Host ""
 
 # Clean Rust/Cargo build cache
